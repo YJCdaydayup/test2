@@ -15,6 +15,7 @@
 		8F3FB77D1DFCBDBA006AB03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3FB77B1DFCBDBA006AB03D /* LaunchScreen.storyboard */; };
 		8F3FB7881DFCBDBA006AB03D /* github__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FB7871DFCBDBA006AB03D /* github__Tests.m */; };
 		8F3FB7931DFCBDBA006AB03D /* github__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FB7921DFCBDBA006AB03D /* github__UITests.m */; };
+		8F3FB7A21DFCBF49006AB03D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3FB7A11DFCBF49006AB03D /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8F3FB78E1DFCBDBA006AB03D /* github仓库UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "github仓库UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3FB7921DFCBDBA006AB03D /* github__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = github__UITests.m; sourceTree = "<group>"; };
 		8F3FB7941DFCBDBA006AB03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3FB7A01DFCBF49006AB03D /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		8F3FB7A11DFCBF49006AB03D /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8F3FB7711DFCBDBA006AB03D /* AppDelegate.m */,
 				8F3FB7731DFCBDBA006AB03D /* ViewController.h */,
 				8F3FB7741DFCBDBA006AB03D /* ViewController.m */,
+				8F3FB7A01DFCBF49006AB03D /* Dog.h */,
+				8F3FB7A11DFCBF49006AB03D /* Dog.m */,
 				8F3FB7761DFCBDBA006AB03D /* Main.storyboard */,
 				8F3FB7791DFCBDBA006AB03D /* Assets.xcassets */,
 				8F3FB77B1DFCBDBA006AB03D /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				8F3FB7751DFCBDBA006AB03D /* ViewController.m in Sources */,
 				8F3FB7721DFCBDBA006AB03D /* AppDelegate.m in Sources */,
+				8F3FB7A21DFCBF49006AB03D /* Dog.m in Sources */,
 				8F3FB76F1DFCBDBA006AB03D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
